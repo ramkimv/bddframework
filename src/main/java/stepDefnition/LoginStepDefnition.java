@@ -20,7 +20,7 @@ public class LoginStepDefnition {
 	public void user_is_on_login_page() {
 	   
 		System.setProperty("webdriver.chrome.driver", "C:/Users/ENTERPRISE TOUCH/workspace/ot-web-automation/drivers/chromedriver.exe");
-		driver = new ChromeDriver();
+		WebDriver driver = new ChromeDriver();
 		driver.manage().window().maximize();
 		driver.get("https://www.facebook.com/");
 	}
